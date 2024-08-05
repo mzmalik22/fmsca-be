@@ -8,7 +8,7 @@ const { parseRecords } = require("./seeders/FMSCA_records");
 initDb();
 
 // - Only uncomment this line when you need the data to be refreshed in the db
-// parseRecords().then(() => console.log("Seeding finished"));
+parseRecords().then(() => console.log("Seeding finished"));
 
 // Start the server
 initServer();
